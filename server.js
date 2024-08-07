@@ -17,9 +17,6 @@ app.use(cors());
 // import routes
 const workoutRoutes = require('./routes/workouts');
 
-// Import routes
-const workoutRoutes = require('./routes/workouts')
-
 // use json with express
 app.use(express.json());
 
